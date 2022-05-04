@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyCatchTheKennyApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBj-sO-8GD">
+                                <rect key="frame" x="125" y="58" width="165" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Za-aW-oD8">
+                                <rect key="frame" x="125" y="127" width="165" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rb-A1-1Wf">
+                                <rect key="frame" x="125" y="793" width="165" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="GBQ-vn-MfZ">
+                                <rect key="frame" x="41" y="239" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="DdZ-V5-O2N">
+                                <rect key="frame" x="274" y="239" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="f5C-Mp-xiX">
+                                <rect key="frame" x="159" y="239" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="6Lz-ph-XxM">
+                                <rect key="frame" x="43" y="376" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="ZeE-vL-uoz">
+                                <rect key="frame" x="276" y="376" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="Bxn-8g-Fly">
+                                <rect key="frame" x="161" y="376" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="cFN-d6-thl">
+                                <rect key="frame" x="44" y="511" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="imb-2f-fGF">
+                                <rect key="frame" x="277" y="511" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kenny" translatesAutoresizingMaskIntoConstraints="NO" id="F92-WS-aDN">
+                                <rect key="frame" x="162" y="511" width="98" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="highscoreLabel" destination="2rb-A1-1Wf" id="Bhi-Wc-ApO"/>
+                        <outlet property="kenny1" destination="GBQ-vn-MfZ" id="wDi-4B-ATb"/>
+                        <outlet property="kenny2" destination="f5C-Mp-xiX" id="RCu-bs-qob"/>
+                        <outlet property="kenny3" destination="DdZ-V5-O2N" id="g7q-Us-ymA"/>
+                        <outlet property="kenny4" destination="6Lz-ph-XxM" id="PbL-gz-mIZ"/>
+                        <outlet property="kenny5" destination="Bxn-8g-Fly" id="JDg-UQ-zZX"/>
+                        <outlet property="kenny6" destination="ZeE-vL-uoz" id="27Y-2k-gzK"/>
+                        <outlet property="kenny7" destination="cFN-d6-thl" id="eCz-Uu-8Vc"/>
+                        <outlet property="kenny8" destination="F92-WS-aDN" id="hRS-b7-nvO"/>
+                        <outlet property="kenny9" destination="imb-2f-fGF" id="8kP-Am-b2q"/>
+                        <outlet property="scoreLabel" destination="3Za-aW-oD8" id="LGv-T2-7EW"/>
+                        <outlet property="timeLabel" destination="cBj-sO-8GD" id="gEg-eT-GsD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Kenny" width="667" height="903"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
